@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cloud</title>
+</head>
+<body>
+<form method="GET" action="/">
+    <input type="text" id="username" name="username">
+    <br>
+    <input type="text" id="password" name="password">
+    <br>
+    <input type="text" id="user_token" name="user_token">
+    <br>
+    <input type="submit" value="Искать">
+    <p th:text="${message}">
+</form>
+</body>
+</html>
